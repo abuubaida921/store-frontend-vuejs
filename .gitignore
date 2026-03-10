@@ -35,3 +35,7 @@ Thumbs.db
 # Cache
 .cache/
 *.tsbuildinfo
+
+# Design / reference images
+homepage.jpg
+footer.png
