@@ -1,0 +1,57 @@
+import { defineStore } from 'pinia'
+import { ref, computed } from 'vue'
+
+export const useFiltersStore = defineStore('filters', () => {
+  const priceMin = ref(0)
+  const priceMax = ref(37383)
+  const availability = ref('in_stock')
+  const subcategories = ref([])
+  const brands = ref([])
+
+  const queryParams = computed(() => ({
+    priceMin: priceMin.value,
+    priceMax: priceMax.value,
+    availability: availability.value,
+    subcategories: subcategories.value,
+    brands: brands.value,
+  }))
+
+  function setPriceRange(min, max) {
+    priceMin.value = min
+    priceMax.value = max
+  }
+
+  function setAvailability(value) {
+    availability.value = value
+  }
+
+  function setSubcategories(value) {
+    subcategories.value = Array.isArray(value) ? value : [value]
+  }
+
+  function setBrands(value) {
+    brands.value = Array.isArray(value) ? value : [value]
+  }
+
+  function clearFilters() {
+    priceMin.value = 0
+    priceMax.value = 37383
+    availability.value = 'in_stock'
+    subcategories.value = []
+    brands.value = []
+  }
+
+  return {
+    priceMin,
+    priceMax,
+    availability,
+    subcategories,
+    brands,
+    queryParams,
+    setPriceRange,
+    setAvailability,
+    setSubcategories,
+    setBrands,
+    clearFilters,
+  }
+})

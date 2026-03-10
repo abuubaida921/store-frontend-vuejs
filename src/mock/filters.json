@@ -1,0 +1,23 @@
+{
+  "priceMin": 0,
+  "priceMax": 37383,
+  "availability": [
+    { "value": "in_stock", "label": "In Stock" },
+    { "value": "out_of_stock", "label": "Out of Stock" }
+  ],
+  "subcategories": [
+    "All In One PC",
+    "Brand PC",
+    "Budget PC",
+    "Portable Mini PC",
+    "Mini PC"
+  ],
+  "brands": [
+    "AMD",
+    "Asus",
+    "Dell",
+    "HP",
+    "Intel PC",
+    "Lenovo"
+  ]
+}

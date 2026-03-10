@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Intel Core i3 10th Gen Processor PC Build With H110M KV2 DDR4 Motherboard 8GB RAM 120GB SSD",
+      "price": 23500,
+      "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Asus PN41 Intel Celeron N5100 Mini PC (Barebone)",
+      "price": 32500,
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Asus PN41 Celeron N4505 Dual Core Mini PC",
+      "price": 28500,
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Intel NUC Mini PC Build With 8GB RAM 256GB SSD",
+      "price": 42000,
+      "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "5",
+      "name": "AMD Ryzen 5 Mini PC Build 16GB RAM 512GB SSD",
+      "price": 55000,
+      "image": "https://images.unsplash.com/photo-1600348717089-13b2c2a1e0e2?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "6",
+      "name": "Dell OptiPlex Micro Desktop PC",
+      "price": 38000,
+      "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "7",
+      "name": "HP ProDesk Mini PC 8GB 256GB SSD",
+      "price": 34500,
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&h=300&fit=crop",
+      "inStock": true
+    },
+    {
+      "id": "8",
+      "name": "Lenovo ThinkCentre M720q Tiny PC",
+      "price": 48000,
+      "image": "https://images.unsplash.com/photo-1587616211892-f7f3d2d8a28f?w=400&h=300&fit=crop",
+      "inStock": true
+    }
+  ],
+  "total": 8
+}
