@@ -5,56 +5,72 @@
       "name": "Intel Core i3 10th Gen Processor PC Build With H110M KV2 DDR4 Motherboard 8GB RAM 120GB SSD",
       "price": 23500,
       "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Desktop",
+      "description": "A reliable desktop PC build featuring Intel Core i3 10th Gen processor, H110M KV2 DDR4 motherboard, 8GB RAM, and 120GB SSD for everyday computing and light workloads."
     },
     {
       "id": "2",
       "name": "Asus PN41 Intel Celeron N5100 Mini PC (Barebone)",
       "price": 32500,
       "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Mini PC",
+      "description": "Compact Asus PN41 Mini PC with Intel Celeron N5100. Barebone unit—add your own RAM and storage. Ideal for office, digital signage, or home theater."
     },
     {
       "id": "3",
       "name": "Asus PN41 Celeron N4505 Dual Core Mini PC",
       "price": 28500,
       "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Mini PC",
+      "description": "Asus PN41 with Celeron N4505 dual-core processor. Small form factor, low power consumption, suitable for basic computing and kiosk use."
     },
     {
       "id": "4",
       "name": "Intel NUC Mini PC Build With 8GB RAM 256GB SSD",
       "price": 42000,
       "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Mini PC",
+      "description": "Intel NUC mini PC pre-built with 8GB RAM and 256GB SSD. Ready to use for office, streaming, or light gaming."
     },
     {
       "id": "5",
       "name": "AMD Ryzen 5 Mini PC Build 16GB RAM 512GB SSD",
       "price": 55000,
       "image": "https://images.unsplash.com/photo-1600348717089-13b2c2a1e0e2?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Mini PC",
+      "description": "Powerful AMD Ryzen 5 mini PC with 16GB RAM and 512GB SSD. Handles multitasking, content creation, and casual gaming."
     },
     {
       "id": "6",
       "name": "Dell OptiPlex Micro Desktop PC",
       "price": 38000,
       "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Desktop",
+      "description": "Dell OptiPlex Micro form factor desktop. Business-grade reliability, compact design, and easy maintenance."
     },
     {
       "id": "7",
       "name": "HP ProDesk Mini PC 8GB 256GB SSD",
       "price": 34500,
       "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Desktop",
+      "description": "HP ProDesk mini desktop with 8GB RAM and 256GB SSD. Built for productivity and office environments."
     },
     {
       "id": "8",
       "name": "Lenovo ThinkCentre M720q Tiny PC",
       "price": 48000,
       "image": "https://images.unsplash.com/photo-1587616211892-f7f3d2d8a28f?w=400&h=300&fit=crop",
-      "inStock": true
+      "inStock": true,
+      "category": "Desktop",
+      "description": "Lenovo ThinkCentre M720q Tiny—compact business PC with strong performance and security features."
     }
   ],
   "total": 8

@@ -13,10 +13,6 @@ const cartStore = useCartStore()
 
 const priceFormatted = formatPrice(props.product.price ?? props.product.priceFormatted)
 
-function addToCart() {
-  cartStore.addItem(props.product)
-}
-
 function compareProduct() {
   // TODO: add to compare list
 }
@@ -38,13 +34,12 @@ function compareProduct() {
       </h3>
       <p class="mt-2 text-lg font-bold text-gray-900">{{ priceFormatted }}</p>
       <div class="mt-4 flex flex-col sm:flex-row gap-2">
-        <button
-          type="button"
-          class="flex-1 px-4 py-2 bg-header-blue text-white text-sm font-medium rounded hover:bg-blue-800 transition-colors"
-          @click="addToCart"
+        <router-link
+          :to="`/product/${product.id}`"
+          class="flex-1 px-4 py-2 bg-header-blue text-white text-sm font-medium rounded hover:bg-blue-800 transition-colors text-center"
         >
-          Add To Cart
-        </button>
+          View Details
+        </router-link>
         <button
           type="button"
           class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-medium rounded hover:bg-gray-200 transition-colors border border-gray-200"
